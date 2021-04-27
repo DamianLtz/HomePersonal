@@ -1,0 +1,1323 @@
+.row {
+    padding: 0;
+    margin: 0;
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+
+ul,
+dl,
+ol,
+h3,
+li,
+a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* Rem Propio 
+
+html{
+    font-size: 67.5%; = 10px
+} 
+
+p {
+    margin-bottom: 0rem;
+} */
+
+h2,
+h4,
+h5,
+p {
+    margin-bottom: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.personalhmb {
+    display: none;
+}
+
+.logopr {
+    height: 48px;
+}
+
+.personalwall {
+    background-image: url(../img/disneybanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 514px;
+}
+
+.navbarfixmob {
+    padding-top: 0.25rem;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navpadding {
+    padding-top: 0;
+}
+
+.navbuscar {
+    display: none;
+}
+
+.disneyleftbox {
+    color: #ffffff;
+    padding-top: 2.5rem;
+}
+
+.disneymini {
+    font-size: 14px;
+    font-family: 'Lato-regular', sans-serif;
+    padding-bottom: 32px;
+}
+
+
+.disneybutton {
+    margin-top: 1rem;
+}
+
+.disneyleftbox h2 {
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'Lato-black', sans-serif;
+}
+
+.conmas {
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    border-color: #21B1E9;
+    background-color: #21B1E9;
+    padding: 0.75rem 3rem;
+    border-radius: 40px;
+    width: 70%;
+    margin: auto;
+}
+
+.imgdisney {
+    width: 488px;
+    height: 435px;
+}
+
+.disneyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.whitebg {
+    width: 70%;
+    background-color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 3px;
+}
+
+.blackbg {
+    width: 70%;
+    margin-bottom: 2px;
+    background-color: rgb(0, 0, 0, 0.65);
+}
+
+.blackbg p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 15px;
+    color: #ffffff;
+}
+
+.whitebgceleste {
+    color: #00b0ea;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.whitebox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blackbox {
+    display: flex;
+    justify-content: center;
+    background-color: #1a1a1a;
+}
+
+.personalogomob {
+    width: 353px;
+}
+
+.disneycolor {
+    color: #00b4c5;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+
+.bord {
+    border-left: 0.5px solid #999999;
+}
+
+.blackbox p {
+    text-align: center;
+}
+
+.colboxblack {
+    padding: 1em 0;
+    color: white;
+    border-right: 0.5px solid #999999;
+}
+
+.pwhite {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pwhite2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.pgrey {
+    color: #999999;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.colboxwhite {
+    padding: 2em;
+}
+
+.iconswhite {
+    font-size: 32px;
+    padding: 0.5em;
+}
+
+.titlepers {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Sección Botones */
+
+.buttonsbox {
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.buttonsbox .btcircle,
+.buttonsbox .btport {
+    margin: 0 1rem;
+    padding: 0.5rem 3.5rem;
+}
+
+
+.btport {
+    color: #ffffff;
+    border-color: #225380;
+    background-color: #225380;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 40px;
+    border: 1px solid #888888;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.375rem 0.75rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btcircle {
+    cursor: pointer;
+    color: #5f5f5f;
+    text-align: center;
+    border-radius: 40px;
+    background-color: transparent;
+    border: 1px solid #888888;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.375rem 0.75rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btcircle:active,
+.btcircle:hover,
+.btcircle:focus,
+.btport:active,
+.btport:hover,
+.btport:focus {
+    color: #ffffff;
+    border-color: #225380;
+    background-color: #225380;
+}
+
+/* Fin Sección Botones */
+
+.mobilepage {
+    display: none;
+}
+
+.blackboxmobile {
+    display: none;
+}
+
+.imgblackbox {
+    display: none;
+}
+
+.disneyleft2 {
+    display: none
+}
+
+/* Sección Planes */
+
+.boxplan {
+    border: solid 1px #cbcbcb;
+    border-top: solid 10px #0089C9;
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.boxplan h2 {
+    padding: 2rem 0 3rem 0;
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+}
+
+.boxplan p {
+    padding: 0 2rem 0 0;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.boxplan ul li {
+    display: flex;
+}
+
+.iconbox {
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem 0 1rem;
+}
+
+.boldspan span {
+    font-weight: 700;
+}
+
+.precio {
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.precio2 {
+    text-align: center;
+}
+
+.precio3 {
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+.conmas2 {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #21B1E9;
+    border-color: #00b0ea;
+    width: 90%;
+    border-radius: 40px;
+}
+
+/* Sección Tarjetas y Botón Ver + Planes */
+
+.conmas3 {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #21B1E9;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #00b0ea;
+    width: 45%;
+    border-radius: 40px;
+}
+
+.colortarjetas {
+    color: #00b0ea;
+}
+
+.boxtarjeta1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxtarjetas2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.boxtarjeta3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxtarjetas2 div {
+    padding: 0 1rem;
+}
+
+/* Fin Sección Tarjetas */
+
+/* Inicio Seccion Degrade */
+
+.degradewall {
+    background-color: #885e8f;
+    border-image: linear-gradient(to right, #885e8f 0%, #3eb3cb 100%);
+    background: -webkit-linear-gradient(left, #885e8f 0%, #3eb3cb 100%)
+}
+
+.titledegrade {
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+}
+
+.bolddegrade {
+    font-weight: 700;
+}
+
+.degradebox {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(17, 88, 112, 0.3);
+}
+
+.degradebox .col-sm-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.degradebox p {
+    padding: 0.25rem 0;
+    text-align: center;
+}
+
+.boxaccesos li {
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: rgba(73, 83, 129, 0.4);
+    margin: 3px;
+}
+
+.boxaccesos a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.boxaccesos p {
+    color: #ffffff;
+}
+
+.boxaccesos img {
+    width: 70px;
+}
+
+.subtitledegrade {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.boxdegrade2 {
+    padding-right: 1rem;
+}
+
+.boxdegrade2 p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.boxdegrade3 p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titlecliente {
+    margin-bottom: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+}
+
+.titlenotcliente {
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    padding: 1rem;
+}
+
+.boxcliente {
+    margin-left: 4rem;
+    background-color: rgb(65, 130, 165, 0.75);
+}
+
+.boxopciones a {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.pdegrade {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.pdegrade2 {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.colboxdegrade {
+    padding: 1em 0;
+    color: white;
+    border-right: 0.5px solid #999999;
+}
+
+/* Menú Promociones */
+
+.titlepromo {
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    padding: 3rem 0 1.5rem 0;
+}
+
+.wallpromo {
+    background-color: #ededed;
+}
+
+.wallpromo2 {
+    background-image: url(../img/Promo1/destacado-club-personal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    width: 100%;
+
+}
+
+.minegocio {
+    font-size: 31px;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    padding: 2rem;
+}
+
+.minegocio2 {
+    padding: 2rem;
+}
+
+.minegocio2 h3 {
+    font-size: 31px;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+}
+
+.boxpromo {
+    padding: 1rem;
+    text-align: center;
+}
+
+.boxpromo h2,
+.boxpromo h3 {
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    color: #666666;
+}
+
+.boxpromo p {
+    font-size: 0.9em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.promobutton {
+    padding: 32px;
+}
+
+.conmas4 {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #21B1E9;
+    padding: 0.75rem 3rem;
+    border-radius: 40px;
+}
+
+.frapbt {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.imgpromobox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imgpromo {
+    width: 100%
+}
+
+.boxmagenta {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+.boxmagenta p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.25rem 0.75rem;
+    color: #ffffff;
+    background-color: #d8176c;
+}
+
+.wallborder {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px #3c3c3c;
+    border: 1px solid rgb(51, 51, 51, 0.25);
+}
+
+/* Sección Menú Beneficios */
+
+.titleben {
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+}
+
+.boxben1 {
+    background-image: url(../img/Promo2/box_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.boxben1 a {
+    display: flex;
+    padding: 1rem 2rem;
+    height: 373px;
+}
+
+.descapp {
+    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+}
+
+.descapp2 {
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+}
+
+.boxben2 {
+    background-image: url(../img/Promo2/banner-club-app.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 373px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.benimg2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.benimg3 {
+    width: 72px;
+    height: 72px;
+}
+
+.boxclub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.club {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+}
+
+.clubp {
+    color: #ffffff;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.boxclub2 {
+    border-top: 1px #ffffff solid;
+}
+
+.boxclub2 p {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.boxben3 {
+    background-image: url(../img/Promo2/box_3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 373px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.traingimg {
+    width: 54px;
+    height: 62px;
+}
+
+.boxplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 0.25rem 0;
+}
+
+.boxplay h3 {
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    padding-left: 0.5rem;
+}
+
+.boxplay2 p {
+    padding: 0 1.5rem;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+.beneficiossm {
+    display: none;
+}
+
+/* Inicio Footer */
+
+/* Sección Celulares */
+
+.wallcelulares {
+    padding-bottom: 2rem;
+    background-color: #f5f5f5;
+}
+
+.listcel h4 {
+    padding: 2rem 0 1rem 0;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.listcel li {
+    padding: 0.25rem 0;
+}
+
+.listcel a,
+.listcel p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #555555;
+}
+
+/* Sección Más Información */
+
+.listcel h5 {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+.appsimg {
+    margin-top: 1rem;
+}
+
+.a8py a,
+.a8py p {
+    padding: 0.25rem 0;
+}
+
+.a8px {
+    padding: 0 1rem;
+}
+
+.movil {
+    padding-left: 2rem;
+}
+
+.hogar {
+    padding-left: 1rem;
+}
+
+/* Footer Negro */
+
+.wallblack {
+    background-color: #1B1B1D;
+}
+
+.opcionesblack li {
+    margin: 2rem 2rem 2rem 0;
+}
+
+.opcionesblack a {
+    color: #ffffff;
+}
+
+.qr1,
+.qr2 {
+    width: 65px;
+    height: 86px;
+}
+
+.opcionesblack {
+    display: flex;
+}
+
+.opcionesblack a {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logopersonalblack {
+    padding: 1.5rem 0;
+}
+
+.textcondiciones {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #cccccc;
+}
+
+.ingresar {
+    color: #ffffff
+}
+
+.ingresar:hover {
+    color: #0d6efd;
+}
+
+.qrbox {
+    display: flex;
+    align-items: center;
+}
+
+.copyright {
+    margin-top: 2rem;
+    padding: 1rem 0;
+    border-top: 1px solid #ffffff;
+}
+
+/* Responsive's */
+
+@media (min-width: 991px) {
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width: 991px) {
+    .containernav {
+        display: inherit;
+    }
+
+    .personalhmb {
+        display: inline-block;
+    }
+
+    .navhide {
+        display: none;
+    }
+
+    .navbuscar {
+        display: flex;
+        align-items: center;
+    }
+
+    .navfont li {
+        font-size: 0.9em;
+        font-family: 'Roboto', sans-serif;
+        color: #555555;
+        padding: 0.5rem 1rem;
+    }
+
+    .nav2font li {
+        border-top: 1px solid #587380;
+        font-size: 0.9em;
+        font-family: 'Roboto', sans-serif;
+        color: #555555;
+        padding: 0.5rem 1rem;
+    }
+
+    .nav3font li {
+        border-top: 1px solid rgba(119, 119, 119, 0.25);
+        font-size: 0.9em;
+        font-family: 'Roboto', sans-serif;
+        color: #555555;
+        padding: 0.5rem 1rem;
+
+    }
+
+    .personalhmb2 {
+        display: none;
+    }
+
+    .navbar-collapse {
+        flex-grow: 1;
+    }
+
+    .blackbox {
+        display: none;
+    }
+
+    .whitebox {
+        display: none;
+    }
+
+    .titlepers {
+        padding-top: 2rem;
+    }
+
+    .disneyright {
+        display: none
+    }
+
+    .conmas{
+        width: 100%;
+    }
+
+    .boxplay{
+        padding: 0;
+    }
+
+    .boxplay2 p {
+        padding: 0 0.5rem;
+    }
+
+    .mobilepage {
+        background-color: #3c3c3c;
+    }
+
+    /* Sección Navbar Fixed */
+
+    .blackboxmobile {
+        color: #ffffff;
+        background-color: #3c3c3c;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        bottom: 0;
+        z-index: 1;
+        padding: 1.5rem;
+    }
+
+    .blackboxmobile p {
+        color: #ffffff;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .imgblackbox {
+        display: inline-block;
+        width: 72px;
+        height: 52px;
+    }
+
+    /* Fin Sección Navbar Fixed */
+
+    .boxplan {
+        margin: 2rem;
+        padding: 2rem;
+    }
+
+    .boxtarjetas {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .boxtarjeta1 {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .boxtarjeta2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .boxtarjeta3 {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .boxcliente {
+        margin: 1rem 0;
+    }
+
+    .beneficios {
+        display: none;
+    }
+
+    .hogar,
+    .movil {
+        margin-top: 1rem;
+        padding-left: 0;
+    }
+
+    .a8px {
+        padding: 0;
+    }
+
+    /* Sección Menú Beneficios >991px */
+
+    .beneficiossm {
+        display: block;
+    }
+
+    .boxbanner1 {
+        background-image: url(../img/Beneficios/box_1_mob.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 108px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0;
+    }
+
+    .boxbanner2 {
+        background-image: url(../img/Beneficios/box_2_mob.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 108px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .boxbanner3 {
+        background-image: url(../img/Beneficios/box_3_mob.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 108px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .titleben {
+        font-size: 32px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .boxben1 a {
+        display: flex;
+        padding: 1rem 2rem;
+        height: 373px;
+    }
+
+    .descapp {
+        font-size: 23px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .descapp2 {
+        font-size: 24px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .benbox3 {
+        display: flex;
+        align-items: center;
+    }
+
+    .club {
+        color: #ffffff;
+        font-size: 32px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .clubp {
+        color: #ffffff;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .traingimg {
+        width: 54px;
+        height: 62px;
+    }
+
+    .boxplay {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .boxplay2 h3 {
+        font-size: 40px;
+        font-family: 'Lato', sans-serif;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .boxplay2 p {
+        text-align: center;
+        font-size: 22px;
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+    }
+
+    .opcionesblack {
+        display: none;
+    }
+
+    .logopersonalblack {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .qrbox {
+        margin-top: 2rem;
+    }
+
+    /* Fin Sección Beneficios */
+
+}
+
+@media(max-width: 768px) {
+
+    .navbar {
+        padding: 0;
+    }
+
+    .disneyleftbox {
+        display: none;
+    }
+
+    .imgdisney {
+        display: none;
+    }
+
+    .personalwall {
+        display: none;
+    }
+
+    .boximgdisney2 {
+        width: 100%;
+    }
+
+    .imgdisney2 {
+        width: 100%;
+    }
+
+    .mobilepage {
+        display: block;
+    }
+
+    .disneyleft2 {
+        display: inline-block;
+        background-color: #333333;
+    }
+
+    .disneyleft2 p {
+        font-family: 'Lato', sans-serif;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    .disneyleft2 h2 {
+        font-family: 'lato-black', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+    .disneybutton2 {
+        display: flex;
+        justify-content: center;
+        align-content: end;
+    }
+
+    .colortarjetas {
+        padding: 2rem 0;
+    }
+
+    .buttonsbox {
+        flex-wrap: wrap;
+    }
+
+    .buttonsbox .btcircle,
+    .buttonsbox .btport {
+        padding: 0;
+        margin: 1rem;
+        text-align: center;
+        width: 170px;
+        height: 40px;
+    }
+
+    .bord2 {
+        border-top: 1px solid rgb(43, 100, 132, 0.75);
+    }
+
+    .bord2,
+    .bord3 {
+        border-bottom: 1px solid rgb(43, 100, 132, 0.75);
+    }
+
+    .boxtarjetas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxtarjeta1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxtarjeta3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .frap {
+        flex-wrap: wrap;
+    }
+
+    .frapbt {
+        justify-content: center;
+    }
+
+    .boxplay {
+        margin-left: 1rem;
+        padding: 0;
+    }
+}
+
+@media(max-width: 576px) {
+
+    .personalogomob {
+        width: 65vw;
+    }
+
+    .navbar-toggler {
+        margin-right: 0.25rem
+    }
+
+    .imgblackbox {
+        width: 48px;
+        height: 36px;
+    }
+
+    .blackboxmobile p {
+        font-size: 12px;
+    }
+
+    .titledegrade {
+        margin-left: 32px;
+    }
+
+    .titlecliente,
+    .subtitledegrade {
+        text-align: center;
+    }
+
+    .frap {
+        justify-content: center;
+    }
+
+    .colortarjetas {
+        padding: 2rem 0;
+    }
+
+    .boxtarjetas2 div {
+        padding: 0 0.5rem;
+    }
+
+    .conmas3 {
+        width: 70%;
+    }
+
+    .boxaccesos {
+        flex-direction: column;
+    }
+
+
+    .boxplay2 h3 {
+        font-size: 2em;
+    }
+
+    .boxplay2 p {
+        font-size: 1em;
+    }
+
+    .benbox1{
+        justify-content: space-around;
+    }
+
+    .benbox3 {
+        padding: 0 2rem;
+    }
+
+    .listcel {
+        flex-wrap: wrap;
+    }
+
+    .listcel ul {
+        padding: 1rem 0;
+    }
+
+    .appsimg {
+        width: 180px;
+        height: 50px;
+        margin: 2rem 1rem 2rem 0;
+    }
+}
